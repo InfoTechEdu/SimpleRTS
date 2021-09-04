@@ -1,0 +1,46 @@
+{
+    "initialCash": 300,
+    "upgradeCost": 100,
+    "enemiesSpawnDelay": 30,
+    "archerUnitData": [{
+            "price": 50,
+            "damage": 40
+        }, {
+            "price": 140,
+            "damage": 90
+        }, {
+            "price": 200,
+            "damage": 150
+        }
+    ],
+    "warriorUnitData": [{
+            "price": 50,
+            "damage": 40
+        }, {
+            "price": 100,
+            "damage": 120
+        }, {
+            "price": 200,
+            "damage": 200
+        }
+    ],
+    "waves": [{
+            "enemiesCount": 2,
+            "archers": 1,
+            "warriors": 1
+        }, {
+            "enemiesCount": 4,
+            "archers": 3,
+            "warriors": 1
+        },
+		{
+            "enemiesCount": 6,
+            "archers": 4,
+            "warriors": 2
+        }
+    ],
+    "temp": {
+        "test1": 5,
+        "test2": 7
+    }
+}
